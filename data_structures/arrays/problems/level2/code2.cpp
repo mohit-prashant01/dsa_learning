@@ -32,6 +32,8 @@ int main(){
    int arr[n];
    for(int i=0;i<n;i++){arr[i]=i+1;}
    int element,pos;
+    cout<<"Original Array: ";
+   printArr(arr,n);
    cout<<"Enter the element: ";
    cin>>element;
    cout<<"Enter the position: ";

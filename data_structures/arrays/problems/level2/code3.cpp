@@ -33,7 +33,8 @@ int main(){
     for(int i=0;i<n;i++){
         arr[i]=i+1;
     }
-    
+    cout<<"Original Array: ";
+    printArr(arr,n);
 
     int index;
     cout<<"Enter the index at which element is to be deleted: ";
